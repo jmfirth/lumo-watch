@@ -1,0 +1,25 @@
+{
+  "license": "BSD",
+  "author": "Justin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jmfirth/lumo-watch.git"
+  },
+  "keywords": [
+    "lumo",
+    "cljs",
+    "node",
+    "watch"
+  ],
+  "scripts": {
+    "test": "node test"
+  },
+  "main": "index.js",
+  "description": "Watch files and reload in Lumo",
+  "version": "0.0.0",
+  "name": "lumo-watch",
+  "dependencies": {
+    "socket.io": "^1.6.0",
+    "watchr": "^3.0.1"
+  }
+}
